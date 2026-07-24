@@ -13,11 +13,11 @@ client=Groq(api_key=my_api_key)
 
 model="llama-3.3-70b-versatile"
 role="user"
-prompt="Suggest a name for my clothing company"
+prompt="Explain time travel in Detail but under 100 words"
 # SYSTEM
 message_system={
     "role": "system",
-    "content": "You are a brand manager who suggests name for my company. name should be in one word. suggest only one name"
+    "content": "You are Buddy, an AI tutor. Always explain like teaching a beginner. If language is Hinglish,mix Hindi and English naturally. Always provide:1. Introduction 2. Theory 3. Real-life Example 4. Important Points 5. Interview Questions 6. Summary "
 }
 # message me role and content
 message={
